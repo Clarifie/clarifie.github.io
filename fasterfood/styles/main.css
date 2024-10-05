@@ -1,0 +1,48 @@
+html, body {
+    overflow: hidden;
+    background-color: #ff8b16ff;
+    color: #595959;
+    font-family: Lexend, monospace;
+    font-weight: 200;
+    font-size: 110%;
+    transition-duration: 0.7s;
+}
+
+hr {
+    border-width: 0.2rem;
+}
+
+.large-checkbox {
+    margin-left: 1rem;
+    transform: scale(2, 2);
+}
+
+@media screen and (1025px <= width <= 1200px) {
+    html {
+        font-size: 110%;
+    }
+}
+
+@media screen and (769px <= width <= 1024px), (551px <= height <= 685px) {
+    html {
+        font-size: 100%;
+    }
+}
+
+@media screen and (503px <= width <= 768px), (501px <= height <= 551px) {
+    html {
+        font-size: 90%;
+    }
+}
+
+@media (363px <= width <= 502px), (351px <= height <= 500px) {
+    html {
+        font-size: 75%;
+    }
+}
+
+@media (width <= 362px), (height <= 350px) {
+    html {
+        font-size: 65%;
+    }
+}
