@@ -6,6 +6,8 @@ html, body {
     font-weight: 200;
     font-size: 110%;
     transition-duration: 0.7s;
+    height: 100%;
+    margin: 0;
 }
 
 hr {

@@ -7,7 +7,7 @@
 #login-card {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     border-top-left-radius: 4.2rem;
     border-top-right-radius: 4.2rem;
     width: 60%;
@@ -20,6 +20,7 @@
     padding-bottom: 2rem;
     box-sizing: border-box;
     background-color: white;
+    box-shadow: -3px 8px 0px #3030304e;
 }
 
 #login-card h1 {
