@@ -1,0 +1,3 @@
+[submodule "faster-food"]
+	path = faster-food
+	url = https://github.com/Clarifie/Faster-Food.git
